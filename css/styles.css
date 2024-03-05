@@ -19,6 +19,7 @@ body {
   line-height: 1.5;
   -webkit-font-smoothing: antialiased;
   font-family: "Lato", sans-serif;
+  padding: 30px;
 }
 img,
 picture,
@@ -53,4 +54,5 @@ h6 {
   background-image: url(../img/11.jpg);
   background-size: cover;
   background-position: bottom;
+  clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%);
 }
