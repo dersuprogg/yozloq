@@ -1,7 +1,7 @@
 /* 
-light 7ed56f
-medium 55c57a
-dark 28b485
+light #7ed56f
+medium #55c57a
+dark #28b485
 * /
 /*
   Josh's Custom CSS Reset
@@ -51,8 +51,12 @@ h6 {
 
 .header {
   height: 95vh;
-  background-image: url(../img/11.jpg);
+  background-image: linear-gradient(
+      rgba(126, 213, 111, 0.75),
+      rgba(40, 180, 133, 0.75)
+    ),
+    url(../img/7.jpg);
   background-size: cover;
-  background-position: bottom;
+  background-position: right;
   clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%);
 }
