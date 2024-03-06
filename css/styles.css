@@ -16,6 +16,10 @@ dark #28b485
   margin: 0;
   padding: 0;
 }
+
+html {
+  font-size: 62.5%;
+}
 body {
   line-height: 1.5;
   -webkit-font-smoothing: antialiased;
@@ -65,14 +69,14 @@ h6 {
 
 .logo-box {
   position: absolute;
-  top: 40px;
-  left: 40px;
+  top: 4rem;
+  left: 4rem;
   border-radius: 50%;
   overflow: hidden;
 }
 
 .logo {
-  height: 55px;
+  height: 5.5rem;
 }
 
 .text-box {
@@ -87,13 +91,13 @@ h6 {
   /* text-align: center; */
   color: #fff;
   text-transform: uppercase;
-  margin-bottom: 30px;
+  margin-bottom: 3rem;
 }
 
 .heading-primary-main {
   display: block;
-  font-size: 65px;
-  letter-spacing: 35px;
+  font-size: 6.5rem;
+  letter-spacing: 3.5rem;
   font-weight: 400;
   animation: moveInLeft 1s ease-out;
 }
@@ -101,18 +105,18 @@ h6 {
 .heading-primary-sub {
   display: block;
   font-weight: 700;
-  font-size: 18px;
-  letter-spacing: 6px;
+  font-size: 1.8rem;
+  letter-spacing: 0.5rem;
   animation: moveInRight 1s ease-out;
 }
 
 @keyframes moveInLeft {
   0% {
     opacity: 0;
-    transform: translateX(-100px);
+    transform: translateX(-10rem);
   }
   80% {
-    transform: translateX(10px);
+    transform: translateX(1rem);
   }
   100% {
     transform: translateX(0);
@@ -123,10 +127,10 @@ h6 {
 @keyframes moveInRight {
   0% {
     opacity: 0;
-    transform: translateX(100px);
+    transform: translateX(10rem);
   }
   80% {
-    transform: translateX(10px);
+    transform: translateX(1rem);
   }
   100% {
     transform: translateX(0);
@@ -137,7 +141,7 @@ h6 {
 @keyframes moveInBottom {
   0% {
     opacity: 0;
-    transform: translateY(30px);
+    transform: translateY(3rem);
   }
 
   100% {
@@ -150,10 +154,11 @@ h6 {
 .btn:visited {
   text-decoration: none;
   text-transform: uppercase;
-  padding: 10px 30px;
+  padding: 1rem 3rem;
   display: inline-block;
-  border-radius: 200px;
+  border-radius: 20rem;
   transition: all 0.2s;
+  font-size: 1.6rem;
 }
 
 .btn:hover {
@@ -182,7 +187,7 @@ h6 {
   top: 0;
   left: 0;
   z-index: -1;
-  border-radius: 200px;
+  border-radius: 20rem;
   transition: all 0.3s;
 }
 
