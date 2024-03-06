@@ -106,7 +106,7 @@ h6 {
   animation: moveinRight 1s ease-out;
 }
 
-@keyframes moveinLeft {
+@keyframes moveInLeft {
   0% {
     opacity: 0;
     transform: translateX(-100px);
@@ -120,7 +120,7 @@ h6 {
   }
 }
 
-@keyframes moveinRight {
+@keyframes moveInRight {
   0% {
     opacity: 0;
     transform: translateX(100px);
