@@ -67,7 +67,7 @@ h6 {
   position: relative;
 }
 
-.logo-box {
+.header__logo-box {
   position: absolute;
   top: 4rem;
   left: 4rem;
@@ -75,11 +75,11 @@ h6 {
   overflow: hidden;
 }
 
-.logo {
+.header__logo {
   height: 5.5rem;
 }
 
-.text-box {
+.header__text-box {
   position: absolute;
   left: 50%;
   top: 40%;
@@ -94,7 +94,7 @@ h6 {
   margin-bottom: 3rem;
 }
 
-.heading-primary-main {
+.heading-primary--main {
   display: block;
   font-size: 6.5rem;
   letter-spacing: 3.5rem;
@@ -102,7 +102,7 @@ h6 {
   animation: moveInLeft 1s ease-out;
 }
 
-.heading-primary-sub {
+.heading-primary--sub {
   display: block;
   font-weight: 700;
   font-size: 1.8rem;
@@ -171,7 +171,7 @@ h6 {
   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
 }
 
-.btn-white {
+.btn--white {
   background-color: #fff;
   color: #777;
   position: relative;
@@ -196,6 +196,6 @@ h6 {
   opacity: 0;
 }
 
-.btn-animated {
+.btn--animated {
   animation: moveInBottom 0.2s ease-out 0.75s backwards;
 }
