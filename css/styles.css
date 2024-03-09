@@ -1,8 +1,3 @@
-/* 
-light #7ed56f
-medium #55c57a
-dark #28b485
-* /
 /*
   Josh's Custom CSS Reset
   https://www.joshwcomeau.com/css/custom-css-reset/
@@ -12,6 +7,7 @@ dark #28b485
 *::after {
   box-sizing: border-box;
 }
+
 * {
   margin: 0;
   padding: 0;
@@ -20,12 +16,14 @@ dark #28b485
 html {
   font-size: 62.5%;
 }
+
 body {
   line-height: 1.5;
   -webkit-font-smoothing: antialiased;
   font-family: "Lato", sans-serif;
   padding: 30px;
 }
+
 img,
 picture,
 video,
@@ -34,12 +32,14 @@ svg {
   display: block;
   max-width: 100%;
 }
+
 input,
 button,
 textarea,
 select {
   font: inherit;
 }
+
 p,
 h1,
 h2,
@@ -49,6 +49,7 @@ h5,
 h6 {
   overflow-wrap: break-word;
 }
+
 #root,
 #__next {
   isolation: isolate;
@@ -143,7 +144,6 @@ h6 {
     opacity: 0;
     transform: translateY(3rem);
   }
-
   100% {
     transform: translateY(0);
     opacity: 1;
